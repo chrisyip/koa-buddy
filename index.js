@@ -40,8 +40,9 @@ module.exports = function () {
       case 'PUT':
       case 'TRACE':
         this.request.body = yield parser(this)
-      default:
-        yield next
+        break;
     }
+
+    yield next
   }
 }

@@ -1,0 +1,17 @@
+doctype html
+
+link(rel='stylesheet', href='http://cdn.staticfile.org/twitter-bootstrap/3.2.0/css/bootstrap.min.css')
+
+.container
+  form(method='post', action='/')
+    .form-group
+      input.form-control(name='body', type='text', placeholder='input some text...')
+    .form-group
+      input.form-control(name='file', type='file')
+    .form-group
+      input.btn.btn-primary(type='submit', value='submit')
+
+  .panel.panel-default
+    .panel-body
+      h3 Post body:
+      p= postBody

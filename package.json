@@ -4,7 +4,8 @@
   "description": "Request body parser for Koa",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test",
+    "test-travis": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -16,16 +17,23 @@
     "parser",
     "request"
   ],
-  "author": "Chris Yip",
+  "author": "Chris Yip <i@chrisyip.im>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chrisyip/koa-buddy/issues"
   },
   "homepage": "https://github.com/chrisyip/koa-buddy",
   "dependencies": {
-    "bluebird": "^2.1.3",
-    "co-body": "0.0.2",
-    "multiparty": "^3.2.9",
-    "xml-parser": "0.0.1"
+    "bluebird": "^2.3.2",
+    "co-body": "^1.0.0",
+    "multiparty": "^3.3.2",
+    "xml-parser": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-jshint": "^1.8.4",
+    "jshint-stylish": "^0.4.0",
+    "koa": "^0.11.0",
+    "koa-jade": "^0.3.0"
   }
 }

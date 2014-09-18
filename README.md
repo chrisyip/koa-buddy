@@ -1,5 +1,7 @@
 # koa-buddy
 
+[![Node version][node-image]][npm-url] [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Travis CI][travis-image]][travis-url]
+
 Request body parser for Koa
 
 # Usage
@@ -76,3 +78,11 @@ If `Content-Type` is not supported, `koa-buddy` passes request stream buffer to 
 # Contributors
 
 - [Chris Yip](http://github.com/chrisyip/koa-buddy/commits/master?author=chrisyip)
+
+[node-image]: http://img.shields.io/node/v/koa-buddy.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/koa-buddy
+[npm-image]: http://img.shields.io/npm/v/koa-buddy.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/chrisyip/koa-buddy
+[daviddm-image]: http://img.shields.io/david/chrisyip/koa-buddy.svg?style=flat-square
+[travis-url]: https://travis-ci.org/chrisyip/koa-buddy
+[travis-image]: http://img.shields.io/travis/chrisyip/koa-buddy.svg?style=flat-square
