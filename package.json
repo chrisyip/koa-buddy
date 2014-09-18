@@ -1,6 +1,6 @@
 {
   "name": "koa-buddy",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Request body parser for Koa",
   "main": "index.js",
   "scripts": {
